@@ -5,8 +5,26 @@ Stylesheet: ベーススタイル
 ******************************************************************/
 @charset "UTF-8";
 
+html {
+  font-size: 100%;
+}
+body {
+  color: $cBlack;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+a {
+  color: $cWhite;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+li {
+  list-style: none;
+}
+
+/* 共通クラス */
 
 
-/*
-共通クラス
-*/
