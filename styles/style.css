@@ -226,6 +226,42 @@ Gallery
   text-align: right;
 }
 
+/*-------------------------------------------
+Access
+-------------------------------------------*/
+.access {
+  margin-bottom: 480px;
+  position: relative;
+  z-index: 20;
+}
+
+.access__place {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.access__address {
+  margin-bottom: 20px;
+}
+
+.access__contact {
+  margin-bottom: 30px;
+}
+
+.access__btn {
+  border: solid 1px #fff;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 82px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.access__btn:hover {
+  background-color: #050507;
+}
+
 @media (max-width: 900px) {
   /******************************************************************
 
