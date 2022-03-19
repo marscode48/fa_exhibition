@@ -164,3 +164,32 @@ Mainvisual
   }
 }
 
+
+/*-------------------------------------------
+Information
+-------------------------------------------*/
+.information {
+  margin-bottom: 140px;
+  
+  &__date-en {
+    display: block;
+    font-size: 1.5rem;
+  }
+  
+  &__time-en {
+    display: block;
+    font-size: 1.125rem;
+  }
+
+  &__place {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 20px 0;
+  }
+
+  &__date-ja {
+    font-size: 1.125rem;
+  }
+}
+
+

@@ -176,6 +176,33 @@ Mainvisual
      object-fit: cover;
 }
 
+/*-------------------------------------------
+Information
+-------------------------------------------*/
+.information {
+  margin-bottom: 140px;
+}
+
+.information__date-en {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.information__time-en {
+  display: block;
+  font-size: 1.125rem;
+}
+
+.information__place {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.information__date-ja {
+  font-size: 1.125rem;
+}
+
 @media (max-width: 900px) {
   /******************************************************************
 
