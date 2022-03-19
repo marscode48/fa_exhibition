@@ -152,13 +152,13 @@ Mainvisual
 .mainvisual {
   display: flex;
   justify-content: center;
-  /* スクロールで画像を拡大させた際に、横スクロールが出ないよう設定 */
+  // スクロールで画像を拡大させた際に、横スクロールが出ないよう設定
   overflow-x: hidden;
 
   & img {
     width: calc(100% / 3);
     height: 100vh;
-    /* スクロールで画像を拡大させた際に、画像が縮まないように設定 */
+    // スクロールで画像を拡大させた際に、画像が縮まないように設定
     flex-shrink: 0;
     object-fit: cover;
   }
