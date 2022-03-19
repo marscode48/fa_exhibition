@@ -203,6 +203,29 @@ Information
   font-size: 1.125rem;
 }
 
+/*-------------------------------------------
+Gallery
+-------------------------------------------*/
+.gallery {
+  margin-bottom: 480px;
+}
+
+.gallery__list li {
+  margin-bottom: 60px;
+}
+
+.gallery__list li img {
+  width: 48%;
+}
+
+.gallery__list li:nth-child(odd) {
+  text-align: left;
+}
+
+.gallery__list li:nth-child(even) {
+  text-align: right;
+}
+
 @media (max-width: 900px) {
   /******************************************************************
 

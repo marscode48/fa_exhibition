@@ -193,3 +193,29 @@ Information
 }
 
 
+/*-------------------------------------------
+Gallery
+-------------------------------------------*/
+.gallery {
+  margin-bottom: 480px;
+
+  &__list {
+    & li {
+      margin-bottom: 60px;
+
+      & img {
+        width: 48%;
+      }
+
+      &:nth-child(odd) {
+        text-align: left;
+      }
+
+      &:nth-child(even) {
+        text-align: right;
+      }
+    }
+  }
+}
+
+
