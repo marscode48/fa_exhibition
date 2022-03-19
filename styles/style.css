@@ -262,6 +262,57 @@ Access
   background-color: #050507;
 }
 
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+.contact {
+  margin-bottom: 200px;
+  position: relative;
+  z-index: 20;
+}
+
+.contact__btn {
+  width: 400px;
+  border: solid 1px #7d7d7d;
+  color: #fff;
+  display: block;
+  padding: 30px 0;
+  margin: 0 auto 20px auto;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact__btn::before, .contact__btn::after {
+  content: "";
+  position: absolute;
+  right: -40px;
+  height: 1px;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact__btn::before {
+  width: 120px;
+  top: 48px;
+}
+
+.contact__btn::after {
+  width: 15px;
+  top: 45px;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+}
+
+.contact__btn:hover {
+  opacity: 0.7;
+}
+
+.contact__btn:hover::before, .contact__btn:hover::after {
+  right: -50px;
+}
+
 @media (max-width: 900px) {
   /******************************************************************
 
