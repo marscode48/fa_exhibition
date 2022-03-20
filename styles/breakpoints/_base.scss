@@ -53,6 +53,34 @@ li {
 }
 
 
+/* サイドボタン */
+.side-btn {
+  border: solid 1px $cWhite;
+  position: fixed;
+  right: -144px;
+  bottom: 200px;
+  transform: rotate(-90deg) translateY(60px);
+  transition: 0.6s;
+  z-index: 30;
+  
+  & a {
+    width: 165px;
+    font-size: 0.875rem;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    padding: 15px 0;
+    transition: 0.3s;
+
+    &:last-of-type {
+      border-left: solid 1px $cWhite;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
 /*-------------------------------------------
 ヘッダー
 -------------------------------------------*/
