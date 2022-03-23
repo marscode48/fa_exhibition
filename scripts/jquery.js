@@ -23,6 +23,17 @@ $(function() {
     $("html, body").animate({scrollTop:position}, 600, "swing");
     return false;
   });
+
+
+  /*=================================================
+  フェード表示
+  ===================================================*/
+  $(".inview").on("inview", function (event, isInView) {
+    // console.log(event)
+    if (isInView) {
+      $(this).stop().addClass("show");
+    }
+  });
 });
 
 
