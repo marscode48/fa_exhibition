@@ -446,5 +446,17 @@ Footer
   .information__place {
     font-size: 2rem;
   }
+  /*-------------------------------------------
+  Gallery
+  -------------------------------------------*/
+  .gallery {
+    margin-bottom: 280px;
+  }
+  .gallery__list li {
+    margin-bottom: 30px;
+  }
+  .gallery__list li img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
