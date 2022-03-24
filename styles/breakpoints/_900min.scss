@@ -13,4 +13,18 @@
   }
 
 
-  
+  /*-------------------------------------------
+  Information
+  -------------------------------------------*/
+  .information {
+    margin-bottom: 80px;
+
+    &__date-en, &__time-en, &__date-ja {
+      font-size: 1rem;
+    }
+
+    &__place {
+      font-size: 2rem;
+    }
+  }
+

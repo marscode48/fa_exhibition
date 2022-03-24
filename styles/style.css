@@ -434,5 +434,17 @@ Footer
   .section-title {
     font-size: 2rem;
   }
+  /*-------------------------------------------
+  Information
+  -------------------------------------------*/
+  .information {
+    margin-bottom: 80px;
+  }
+  .information__date-en, .information__time-en, .information__date-ja {
+    font-size: 1rem;
+  }
+  .information__place {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
