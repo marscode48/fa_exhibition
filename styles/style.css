@@ -427,5 +427,12 @@ Footer
   Stylesheet: 900px以下のモニタで適用
 
   ******************************************************************/
+  .site-title {
+    font-size: 3rem;
+    margin: 50px 0;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
