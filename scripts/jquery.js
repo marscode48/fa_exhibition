@@ -43,6 +43,12 @@ $(function() {
     let scroll = $(window).scrollTop();
 
 
+    /*=================================================
+    メインビジュアルの拡大・縮小
+    ===================================================*/
+    mv_scale(scroll);
+
+
     
   });
 
@@ -72,3 +78,20 @@ function hamburger() {
 }
 
 
+/*=================================================
+メインビジュアルの拡大・縮小（共通処理）
+===================================================*/
+function mv_scale(scroll) {
+  console.log(scroll)
+  console.log(window.innerWidth)
+
+  if (window.innerWidth > 900) {
+    $('.mainvisual img').css({
+      'width': 100/3 + scroll/10 + '%'
+    });
+  } else {
+    $('.mainvisual img').css({
+      'width': 100 - scroll/10 + '%'
+    });
+  }
+}
