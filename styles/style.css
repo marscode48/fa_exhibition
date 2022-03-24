@@ -464,5 +464,14 @@ Footer
   .access {
     margin-bottom: 280px;
   }
+  /*-------------------------------------------
+  Contact
+  -------------------------------------------*/
+  .contact__btn {
+    width: 100%;
+  }
+  .contact__btn::before, .contact__btn::after {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
