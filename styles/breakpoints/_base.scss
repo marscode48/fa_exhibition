@@ -361,3 +361,42 @@ Contact
     }
   }
 }
+
+
+/*-------------------------------------------
+Footer
+-------------------------------------------*/
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-top: solid 1px $cWhite;
+  font-size: 0.75rem;
+  padding: 80px 30px;
+  text-align: left;
+
+  &__ask {
+    & p {
+      line-height: 1.6;
+    }
+  }
+
+  &__sns {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+    & li {
+      margin-right: 15px;
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    align-items: center;
+
+    & li:last-child {
+      margin-left: 30px;
+    }
+  }
+}

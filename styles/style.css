@@ -371,6 +371,56 @@ Contact
   right: -50px;
 }
 
+/*-------------------------------------------
+Footer
+-------------------------------------------*/
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: solid 1px #fff;
+  font-size: 0.75rem;
+  padding: 80px 30px;
+  text-align: left;
+}
+
+.footer__ask p {
+  line-height: 1.6;
+}
+
+.footer__sns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.footer__sns li {
+  margin-right: 15px;
+}
+
+.footer__copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__copyright li:last-child {
+  margin-left: 30px;
+}
+
 @media (max-width: 900px) {
   /******************************************************************
 
