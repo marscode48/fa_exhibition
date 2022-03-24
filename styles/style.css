@@ -458,5 +458,11 @@ Footer
   .gallery__list li img {
     width: 100%;
   }
+  /*-------------------------------------------
+  Access
+  -------------------------------------------*/
+  .access {
+    margin-bottom: 280px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
