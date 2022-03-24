@@ -49,7 +49,16 @@ $(function() {
     mv_scale(scroll);
 
 
-    
+    /*=================================================
+    ロゴ、ハンバーガーメニューの表示
+    ===================================================*/
+    if (scroll > 520) {
+      $('.header__logo').fadeIn(500);
+      $('.header__hamburger').fadeIn(500);
+    } else {
+      $('.header__logo').fadeOut(500);
+      $('.header__hamburger').fadeOut(500);
+    }
   });
 
 

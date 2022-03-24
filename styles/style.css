@@ -124,6 +124,7 @@ li {
   top: 35px;
   left: 30px;
   z-index: 40;
+  display: none;
 }
 
 .header__logo a {
@@ -138,6 +139,7 @@ li {
   top: 20px;
   right: 25px;
   z-index: 40;
+  display: none;
 }
 
 .header__hamburger span {
