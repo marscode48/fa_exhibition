@@ -84,6 +84,22 @@ $(function() {
         });
       }
     }
+
+
+    /*=================================================
+    Accessの背景画像を表示
+    ===================================================*/
+    let contact_position = $('#contact').offset().top - $(window).height();
+
+    if(scroll > access_position) {
+      if(scroll < contact_position) {
+        $('.bg').fadeIn(500);
+      } else {
+        $('.bg').fadeOut(500);
+      }
+    } else {
+      $('.bg').fadeOut(500);
+    }
   });
 
 
