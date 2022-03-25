@@ -59,6 +59,31 @@ $(function() {
       $('.header__logo').fadeOut(500);
       $('.header__hamburger').fadeOut(500);
     }
+
+
+    /*=================================================
+    サイドボタンを表示
+    ===================================================*/
+    let gallery_position = $('#gallery').offset().top - $(window).height();
+    let access_position = $('#access').offset().top - $(window).height();
+
+    if (window.innerWidth > 900) {
+      if (scroll > gallery_position) {
+        if (scroll < access_position) {
+          $('#side-btn').css({
+            'transform': 'rotate(-90deg) translateY(0)'
+          });
+        } else {
+          $('#side-btn').css({
+            'transform': 'rotate(-90deg) translateY(60px)'
+          });
+        }
+      } else {
+        $('#side-btn').css({
+          'transform': 'rotate(-90deg) translateY(60px)'
+        });
+      }
+    }
   });
 
 
