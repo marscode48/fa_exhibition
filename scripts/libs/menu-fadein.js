@@ -20,7 +20,7 @@ class MenuFadeIn {
   _getPageScroll() {
     window.addEventListener('scroll', function() {
       const pageScroll = window.pageYOffset;
-      console.log(pageScroll)
+      // console.log(pageScroll)
       pageScroll > this.y ? this._add() : this._remove();
     }.bind(this));
   }

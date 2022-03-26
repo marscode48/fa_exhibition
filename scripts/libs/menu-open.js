@@ -1,10 +1,9 @@
 class MenuOpen {
   constructor() {
     this.DOM = {};
-    // this.DOM.header = document.querySelector('.header');
     this.DOM.hamburger = document.querySelector('.header__hamburger');
     this.DOM.navi = document.querySelector('.header__navi');
-    console.log(this.DOM.navi)
+    // console.log(this.DOM.navi)
     this.eventType = this._getEventType();
     this._addEvent();
   }
