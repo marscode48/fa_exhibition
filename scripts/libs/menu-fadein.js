@@ -8,13 +8,13 @@ class MenuFadeIn {
   }
 
   _add() {
-    this.DOM.logo.classList.add('fadein');
-    this.DOM.hamburger.classList.add('fadein');
+    this.DOM.logo.classList.add('inview');
+    this.DOM.hamburger.classList.add('inview');
   }
 
   _remove() {
-    this.DOM.logo.classList.remove('fadein');
-    this.DOM.hamburger.classList.remove('fadein');
+    this.DOM.logo.classList.remove('inview');
+    this.DOM.hamburger.classList.remove('inview');
   }
 
   _getPageScroll() {
