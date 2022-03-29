@@ -95,8 +95,20 @@ li {
   position: fixed;
   top: 0;
   left: 0;
-  display: none;
   z-index: 10;
+  
+  // ｍain.js使用時はコメントアウトする
+  // display: none;
+
+  // jquery.js使用時はコメントアウトする
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+
+  &.inview {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 

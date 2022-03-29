@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 class Main {
   constructor() {
     this.side = document.querySelector('#side-btn');
+    this.bg = document.querySelector('.bg');
     this._init();
     this._scrollInit();
   }
@@ -32,9 +33,19 @@ class Main {
       this.side.classList.remove('inview')
     }
   }
+
+  _fadeInAnimation(el, inview) {
+    if(inview) {
+      this.bg.classList.add('inview');
+    } else {
+      this.bg.classList.remove('inview');
+    }
+  }
+
   _scrollInit() {
     new ScrollObserver('.inview', this._inviewAnimation);
     new ScrollObserver('#gallery', this._sideAnimation.bind(this), {once: false, rootMargin: "-300px 0px 0px 0px"});
+    new ScrollObserver('#access', this._fadeInAnimation.bind(this), {once: false, rootMargin: "-350px 0px 0px 0px"});
   }
 }
 
