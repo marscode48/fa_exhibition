@@ -11,6 +11,7 @@ class Main {
   }
 
   _init() {
+    new MvScaleChange();
     new MenuOpen();
     new MenuFadeIn(520);
     new SmoothScroll(0);
