@@ -11,6 +11,10 @@
   .section-title {
     font-size: 2rem;
   }
+  // jQuery使用時はコメントアウトする
+  .side-btn {
+    display: none;
+  }
 
 
   /*-------------------------------------------

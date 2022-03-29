@@ -79,6 +79,11 @@ li {
       opacity: 0.7;
     }
   }
+
+  // jquery.js使用時はコメントアウトする
+  &.inview {
+    transform: rotate(-90deg) translateY(0px);
+  }
 }
 
 

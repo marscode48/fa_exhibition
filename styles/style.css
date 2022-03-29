@@ -88,6 +88,11 @@ li {
   opacity: 0.7;
 }
 
+.side-btn.inview {
+  -webkit-transform: rotate(-90deg) translateY(0px);
+          transform: rotate(-90deg) translateY(0px);
+}
+
 /* Accessの背景画像 */
 .bg {
   background: url("../images/bg.jpg") center center repeat !important;
@@ -444,6 +449,9 @@ Footer
   }
   .section-title {
     font-size: 2rem;
+  }
+  .side-btn {
+    display: none;
   }
   /*-------------------------------------------
   Information
