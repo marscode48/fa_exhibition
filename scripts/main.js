@@ -16,17 +16,13 @@ class Main {
     new SmoothScroll(0);
   }
 
-  _inviewAnimation(el, inview) {
-    // console.log(el)
-    // console.log(inview)
+  _galleryAnimation(el, inview) {
     if(inview) {
       el.classList.add('show');
     }
   }
 
   _sideAnimation(el, inview) {
-    // console.log(el)
-    // console.log(inview)
     if(inview) {
       this.side.classList.add('inview');
     } else {
@@ -43,7 +39,7 @@ class Main {
   }
 
   _scrollInit() {
-    new ScrollObserver('.inview', this._inviewAnimation);
+    new ScrollObserver('.inview', this._galleryAnimation);
     new ScrollObserver('#gallery', this._sideAnimation.bind(this), {once: false, rootMargin: "-300px 0px 0px 0px"});
     new ScrollObserver('#access', this._fadeInAnimation.bind(this), {once: false, rootMargin: "-350px 0px 0px 0px"});
   }
