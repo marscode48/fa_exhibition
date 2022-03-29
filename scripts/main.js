@@ -42,8 +42,6 @@ class Main {
   _scrollInit() {
     new ScrollObserver('.inview', this._galleryAnimation);
     new ScrollObserver('#gallery', this._sideAnimation.bind(this), {once: false, rootMargin: "-300px 0px 0px 0px"});
-    new ScrollObserver('#access', this._fadeInAnimation.bind(this), {once: false, rootMargin: "-350px 0px 0px 0px"});
+    new ScrollObserver('#access', this._fadeInAnimation.bind(this), {once: false, rootMargin: "-300px 0px 0px 0px"});
   }
 }
-
-
