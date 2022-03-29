@@ -11,10 +11,9 @@ class SmoothScroll {
       this.DOM.trigger[i].addEventListener('click', (e) => {
         e.preventDefault();
         let href = this.DOM.trigger[i].getAttribute('href');
-        console.log(href)
+        // console.log(href)
         let targetElement = document.getElementById(href.replace('#', ''));
-        console.log(targetElement)
-        // let targetElement = document.getElementById
+        // console.log(targetElement)
 
         const rect = targetElement.getBoundingClientRect().top;
         const offset = window.pageYOffset;
